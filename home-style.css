@@ -1,0 +1,100 @@
+.navBar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10%;
+    background-color: rgba(0, 128, 128, 0.336);
+    height: 30px;
+    margin: 0;
+    
+}
+body {
+    margin: 0;
+    background-color: rgb(141, 168, 216);
+}
+.nav-link {
+    text-decoration: none;
+    
+}
+.about {
+    background-color: rgba(201, 199, 199, 0.342);
+    height: 800px
+}
+.intro {
+    background-image: url('https://images.unsplash.com/photo-1603979649806-5299879db16b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80');
+    background-size: cover;
+    height: auto;
+    width: 100%
+  
+}
+.project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: baseline;
+    align-content: center;
+}
+.project {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(87, 86, 86, 0.301);
+    margin: 10px;
+    opacity: 1;
+}
+
+.project:hover {
+opacity: .6;
+box-shadow: 8px 8px 2px rgba(70, 69, 69, 0.301);
+transition-duration: .5s;
+}
+
+.project:active {
+    opacity: .4;
+box-shadow: 2px 8px 2px rgba(70, 69, 69, 0.301);
+transition-duration: .5s;
+}
+
+.project-img {
+    width: 280px;
+    border-radius: 25px;
+}
+
+.technolgy-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   list-style: none;
+   justify-content: space-around;
+   width: 220px;
+   align-content: center;
+}
+.technology {
+    
+}
+
+.site {
+    background-color: rgba(59, 59, 59, 0.918);
+    border-radius: 15px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.301);
+}
+.site:hover {
+    color: rgba(59, 59, 59, 0.918);
+    background-color: rgba(211, 208, 208, 0.726);
+    transition-duration: .3s;
+    box-shadow: 6px 7px rgba(128, 128, 128, 0.555);
+}
+
+.site:active {
+    color: rgba(59, 59, 59, 0.918);
+    background-color: rgba(211, 208, 208, 0.342);
+    transition-duration: .3s;
+    box-shadow: 2px 2px rgba(128, 128, 128, 0.555);
+}
