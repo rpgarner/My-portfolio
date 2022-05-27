@@ -11,17 +11,41 @@
     <header>
       <nav>
         <ul class="navBar">
-          <li><a href="#aboutMe" class="nav-link">About Me</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#projects" class="nav-link">Contact</a></li>
+          <li>
+            <button
+              onclick="window.location.href='#aboutMe'"
+              class="resume-btn nav-link"
+            >
+              About Me
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="window.location.href='#projects'"
+              class="resume-btn nav-link"
+            >
+              Projects
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="window.location.href='#projects'"
+              class="resume-btn nav-link"
+            >
+              Contact
+            </button>
+          </li>
+          <li><button class="resume-btn nav-link"><a href="https://docs.google.com/document/d/1EHolw6-QyqiEbRaIKsdDWJAYWLLZCZd3U0i1CpW7ypI/edit?usp=sharing " download>Resume</a></button></li>
         </ul>
       </nav>
     </header>
     <main>
       <article class="intro">
-        Introduction
-        <h1>Ryan Garner</h1>
-        <p>
+        <div class="intro-name">
+          <h1 class="name">Ryan Garner</h1>
+        </div>
+        
+        <p class="brand-statement">
           Software Engineer, with a hunger to learn and build applications that
           make a positive impact. On the forefront of innovation; building
           effective, creative, and forward thinking products, I do this by
@@ -29,91 +53,146 @@
           possibilities and seeking to be a continual student.
         </p>
       </article>
-      <article id="aboutMe" class="about">About Me</article>
+      <article id="aboutMe" class="about">
+        
+        <div class="about-item">
+          <img src="https://avatars.githubusercontent.com/u/100218099?s=400&u=9104319b612d2f8fa19811c15e404a39a812d826&v=4" alt="img1" class="aboutImg" />
+          <img src="" alt="img2" class="aboutImg" />
+          <img src="" alt="img2" class="aboutImg" />
+          <img src="" alt="img2" class="aboutImg" />
+        </div>
+        <div class="about-item">
+          <p>
+            I may have been late to the game but I found my passion! I always
+            thought my dream was to be a Commercial Project Manager, watching,
+            building and contributing to a cities legacy was a rewarding
+            feeling. The grind, the teamwork the drive to push a project across
+            the finish line. It seemed like an appropriate dream given my
+            background in Construction Management at Colorado State University.
+            I gravitated toward superintendent and project management positions
+            and even started my own General Contraction company for a while
+            (Note to self don't start a business on the same day a global
+            pandemic goes into effect). Still something seemed to be missing, I
+            yearned to learn more, yearned to learn something different, to...
+            build something different. It wasn't gradual it was sudden like an
+            African desert storm; the spark I had been looking for when I signed
+            up for my first free online Javascript course and 2 hours turned
+            into 12. Since then, I've been hooked and I'm proud of it.
+            Full-stack web development encompasses all my passions; it
+            incorporates creativity, team building, and complex problem solving.
+            I fell in love not only when software development but the community
+            of inspiring, giving individuals I've met along that way! My
+            specialties include quickly learning new skills and programming
+            languages, problem solving, team collaboration and project
+            management. So far I have SQL, JavaScript, TypeScript, HTML, CSS,
+            GraphQL, Vue, NodeJS, Python, MongoDB and Git/GitHub under my belt.
+            I've started learning Angular, Ruby on Rails, and Kotlin.
+          </p>
+        </div>
+      </article>
       <article id="projects" class="project-container">
         <div>
           <div class="project">
-            <h1>Trivia Game</h1>
+            <h1>Ntrest</h1>
             <img
-              src="https://camo.githubusercontent.com/be2c70bb2ba686da0b10cd681f5c371ff2ba14688af9973b69fa1e45055ba8d9/68747470733a2f2f6d656469612e6973746f636b70686f746f2e636f6d2f70686f746f732f7472697669612d706963747572652d69643833353634393933383f6b3d3230266d3d38333536343939333826733d3631327836313226773d3026683d465163655149726a4e6f7a5247754650485541704356475f4e494b58536f3677736c627a2d6239364c6a4d3d"
+              src="https://i.ibb.co/Kw0Jcy2/Screen-Shot-2022-05-24-at-10-25-26-PM.png"
               alt="Trivia Game"
               class="project-img"
             />
-            
-              <ul class="technolgy-container">
-                <li class="technology">HTML</li>
-                <li class="technology">CSS</li>
-                <li class="technology">JavaScript</li>
-                <li class="technology">Github</li>
-                <li class="technology">Deployed with Surge</li>
-              </ul>
-            
+
+            <ul class="technolgy-container">
+              <li class="technology">HTML |</li>
+              <li class="technology">CSS |</li>
+              <li class="technology">JavaScript |</li>
+              <li class="technology">React |</li>
+              <li class="technology">Express |</li>
+              <li class="technology">Node.js |</li>
+              <li class="technology">Postgres |</li>
+              <li class="technology">JWT |</li>
+              <li class="technology">Auth |</li>
+              <li class="technology">SQL |</li>
+              <li class="technology">Github |</li>
+              <li class="technology">Deployed with Heroku</li>
+            </ul>
+            <div>
+              <p></p>
+            </div>
           </div>
-          <button class="site">Site</button>
-          <button class="site">Github</button>
+          <button onClick="window.location.href='https://ntrest-app.herokuapp.com'" class="site">Site</button>
+          <button onClick="window.location.href='https://github.com/rpgarner/Ntrest'" class="site">Github</button>
         </div>
         <div>
           <div class="project">
-            <h1>Trivia Game</h1>
+            <h1>Show your 90's</h1>
             <img
-              src="https://camo.githubusercontent.com/be2c70bb2ba686da0b10cd681f5c371ff2ba14688af9973b69fa1e45055ba8d9/68747470733a2f2f6d656469612e6973746f636b70686f746f2e636f6d2f70686f746f732f7472697669612d706963747572652d69643833353634393933383f6b3d3230266d3d38333536343939333826733d3631327836313226773d3026683d465163655149726a4e6f7a5247754650485541704356475f4e494b58536f3677736c627a2d6239364c6a4d3d"
+              src="https://i.imgur.com/vo4YW5g.png[/img]"
               alt="Trivia Game"
               class="project-img"
             />
-            <div >
+            <div>
               <ul class="technolgy-container">
                 <li class="technology">HTML</li>
                 <li class="technology">CSS</li>
                 <li class="technology">JavaScript</li>
+                <li class="technology">React</li>
+                <li class="technology">Express</li>
+                <li class="technology">Node.js</li>
+                <li class="technology">SQL</li>
+                <li class="technology">Postgres</li>
+                <li class="technology">JWT</li>
+                <li class="technology">Auth</li>
                 <li class="technology">Github</li>
                 <li class="technology">Deployed with Surge</li>
               </ul>
             </div>
           </div>
-          <button class="site">Site</button>
-          <button class="site">Github</button>
+          <button onClick="window.location.href='https://show-your-nineties.herokuapp.com/'" class="site">Site</button>
+          <button onClick="window.location.href='https://github.com/jenna-allgeier/show_your_90s_frontend'" class="site">Github</button>
         </div>
         <div>
           <div class="project">
-            <h1>Trivia Game</h1>
+            <h1>Life Style</h1>
             <img
-              src="https://camo.githubusercontent.com/be2c70bb2ba686da0b10cd681f5c371ff2ba14688af9973b69fa1e45055ba8d9/68747470733a2f2f6d656469612e6973746f636b70686f746f2e636f6d2f70686f746f732f7472697669612d706963747572652d69643833353634393933383f6b3d3230266d3d38333536343939333826733d3631327836313226773d3026683d465163655149726a4e6f7a5247754650485541704356475f4e494b58536f3677736c627a2d6239364c6a4d3d"
+              src="https://i.ibb.co/vJmP3Fc/Screen-Shot-2022-04-03-at-8-28-40-PM.png"
               alt="Trivia Game"
               class="project-img"
             />
-            
-              <ul class="technolgy-container">
-                <li class="technology">HTML</li>
-                <li class="technology">CSS</li>
-                <li class="technology">JavaScript</li>
-                <li class="technology">Github</li>
-                <li class="technology">Deployed with Surge</li>
-              </ul>
-           
+
+            <ul class="technolgy-container">
+              <li class="technology">HTML</li>
+              <li class="technology">CSS</li>
+              <li class="technology">JavaScript</li>
+              <li class="technology">React</li>
+              <li class="technology">Express</li>
+              <li class="technology">Node.js</li>
+              <li class="technology">Mongo</li>
+              <li class="technology">Mongoose</li>
+              <li class="technology">Github</li>
+              <li class="technology">Deployed with Heroku</li>
+            </ul>
           </div>
-          <button class="site">Site</button>
-          <button class="site">Github</button>
+          <button onClick="window.location.href='https://warm-refuge-15960.herokuapp.com/'" class="site">Site</button>
+          <button onClick="window.location.href='https://github.com/rpgarner/Life_Style-'" class="site">Github</button>
         </div>
         <div>
           <div class="project">
-            <h1>Trivia Game</h1>
+            <h1>Travelers Blog</h1>
             <img
               src="https://camo.githubusercontent.com/be2c70bb2ba686da0b10cd681f5c371ff2ba14688af9973b69fa1e45055ba8d9/68747470733a2f2f6d656469612e6973746f636b70686f746f2e636f6d2f70686f746f732f7472697669612d706963747572652d69643833353634393933383f6b3d3230266d3d38333536343939333826733d3631327836313226773d3026683d465163655149726a4e6f7a5247754650485541704356475f4e494b58536f3677736c627a2d6239364c6a4d3d"
               alt="Trivia Game"
               class="project-img"
             />
-            
-              <ul class="technolgy-container">
-                <li class="technology">HTML</li>
-                <li class="technology">CSS</li>
-                <li class="technology">JavaScript</li>
-                <li class="technology">Github</li>
-                <li class="technology">Deployed with Surge</li>
-              </ul>
-            
+
+            <ul class="technolgy-container">
+              <li class="technology">HTML</li>
+              <li class="technology">CSS</li>
+              <li class="technology">JavaScript</li>
+              <li class="technology">Github</li>
+              <li class="technology">Deployed with Surge</li>
+            </ul>
           </div>
-          <button class="site">Site</button>
-          <button class="site">Github</button>
+          <button onClick="window.location.href='https://ntrest-app.herokuapp.com'" class="site">Site</button>
+          <button onClick="window.location.href='https://ntrest-app.herokuapp.com'" class="site">Github</button>
         </div>
         <div>
           <div class="project">
@@ -123,18 +202,17 @@
               alt="Trivia Game"
               class="project-img"
             />
-            
-              <ul class="technolgy-container">
-                <li class="technology">HTML</li>
-                <li class="technology">CSS</li>
-                <li class="technology">JavaScript</li>
-                <li class="technology">Github</li>
-                <li class="technology">Deployed with Surge</li>
-              </ul>
-            
+
+            <ul class="technolgy-container">
+              <li class="technology">HTML</li>
+              <li class="technology">CSS</li>
+              <li class="technology">JavaScript</li>
+              <li class="technology">Github</li>
+              <li class="technology">Deployed with Surge</li>
+            </ul>
           </div>
-          <button class="site">Site</button>
-          <button class="site">Github</button>
+          <button onClick="window.location.href='https://subdued-level.surge.sh/index.html'" class="site">Site</button>
+          <button onClick="window.location.href='https://github.com/rpgarner/Trivia-game-Link '" class="site">Github</button>
         </div>
         <div>
           <div class="project">
@@ -144,22 +222,25 @@
               alt="Trivia Game"
               class="project-img"
             />
-            
-              <ul class="technolgy-container"> 
-                <li class="technology">HTML</li>
-                <li class="technology">CSS</li>
-                <li class="technology">JavaScript</li>
-                <li class="technology">Github</li>
-                <li class="technology">Deployed with Surge</li>
-              </ul>
-           
+
+            <ul class="technolgy-container">
+              <li class="technology">HTML</li>
+              <li class="technology">CSS</li>
+              <li class="technology">JavaScript</li>
+              <li class="technology">Github</li>
+              <li class="technology">Deployed with Surge</li>
+            </ul>
           </div>
           <button class="site">Site</button>
           <button class="site">Github</button>
         </div>
       </article>
 
-      <article id="contact">contact</article>
+      <article id="contact">
+        <div>
+
+        </div>
+      </article>
     </main>
     <script src="./home-script.js"></script>
   </body>
